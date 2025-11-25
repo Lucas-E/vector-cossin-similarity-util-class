@@ -6,7 +6,7 @@ on:
       - staging
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   publish-package:

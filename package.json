@@ -14,6 +14,10 @@
     "test": "jest",
     "build": "rm -rf ./dist && npx tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Lucas-E/cosine-similarity-util-class.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

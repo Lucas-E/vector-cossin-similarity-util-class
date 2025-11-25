@@ -2,12 +2,12 @@
   "name": "cosine-similarity-util-class",
   "version": "1.0.19",
   "description": "Cosine similarity util class",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/src/index.js",
-      "types": "./dist/src/index.d.ts"
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/Lucas-E/cosine-similarity-util-class.git"
+    "url": "git+https://github.com/Lucas-E/cosine-similarity-util-class.git"
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +32,7 @@
     "semantic-release": "^25.0.2"
   },
   "files": [
-    "./dist/src",
+    "dist",
     "README.md"
   ]
 }
